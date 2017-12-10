@@ -1,4 +1,3 @@
-package DjamperD;
 
 public class Main {
 
