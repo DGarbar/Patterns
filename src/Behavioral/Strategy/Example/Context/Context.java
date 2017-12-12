@@ -1,6 +1,6 @@
-package Behavioral.Strategy.Context;
+package Behavioral.Strategy.Example.Context;
 
-import Behavioral.Strategy.Strategy_Variation.IStrategy;
+import Behavioral.Strategy.Example.Strategy_Variation.IStrategy;
 
 public class Context {
 

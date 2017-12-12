@@ -1,4 +1,4 @@
-package Behavioral.Strategy.Strategy_Variation;
+package Behavioral.Strategy.Example.Strategy_Variation;
 
 public class OperationMultiply implements IStrategy {
 

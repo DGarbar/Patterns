@@ -1,9 +1,9 @@
-package Behavioral.Strategy;
+package Behavioral.Strategy.Example;
 
-import Behavioral.Strategy.Context.Context;
-import Behavioral.Strategy.Strategy_Variation.OperationAdd;
-import Behavioral.Strategy.Strategy_Variation.OperationMultiply;
-import Behavioral.Strategy.Strategy_Variation.OperationSubstract;
+import Behavioral.Strategy.Example.Context.Context;
+import Behavioral.Strategy.Example.Strategy_Variation.OperationAdd;
+import Behavioral.Strategy.Example.Strategy_Variation.OperationMultiply;
+import Behavioral.Strategy.Example.Strategy_Variation.OperationSubstract;
 
 public class StrategyPattern {
 
