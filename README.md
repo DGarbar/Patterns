@@ -16,5 +16,5 @@
 
 
 
-[LowCoupling]: <Patterns/src/AdditionalDocs/LowCoupling.md>
-[Composition]: <Patterns/src/AdditionalDocs/Composition.md>
+[LowCoupling]: </src/AdditionalDocs/LowCoupling.md>
+[Composition]: </src/AdditionalDocs/Composition.md>
