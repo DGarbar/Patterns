@@ -20,7 +20,7 @@ public class Ex1 {
     uaNewsPublisher.registerObserver(radioChannel2);
     uaNewsPublisher.registerObserver(tvChannel);
 
-    ruNewsPublisher.setNews("Java best in the world");
+    ruNewsPublisher.setNews("Java -  best in the world");
     ruNewsPublisher.removeObserver(radioChannel1);
     ruNewsPublisher.setNews("Java is great");
 
