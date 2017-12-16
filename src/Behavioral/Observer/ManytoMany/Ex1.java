@@ -10,7 +10,6 @@ public class Ex1 {
   public static void main(String[] args) {
     RUNewsPublisher ruNewsPublisher = new RUNewsPublisher();
     UANewsPublisher uaNewsPublisher = new UANewsPublisher();
-
     RadioChannel radioChannel1 = new RadioChannel();
     RadioChannel radioChannel2 = new RadioChannel();
     TVChannel tvChannel = new TVChannel();

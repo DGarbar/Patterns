@@ -12,9 +12,10 @@
 
 * Стремиться к [**слабой связанности**][LowCoupling]* взаимодействующих объектов;
 
-
+* Классы открыты для расширения, но закрыты для изменения([Open/closed][OCP]).
 
 
 
 [LowCoupling]: </src/AdditionalDocs/LowCoupling.md>
 [Composition]: </src/AdditionalDocs/Composition.md>
+[OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
