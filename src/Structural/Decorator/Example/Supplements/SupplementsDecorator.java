@@ -9,7 +9,7 @@ import Structural.Decorator.Example.Products.Beverage;
 
 public abstract class SupplementsDecorator implements Beverage {
 
-  Beverage beverage;
+  protected Beverage beverage;
 
   public SupplementsDecorator(Beverage beverage) {
     this.beverage = beverage;
