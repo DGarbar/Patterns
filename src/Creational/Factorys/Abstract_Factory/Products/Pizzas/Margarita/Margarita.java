@@ -4,7 +4,7 @@ import Creational.Factorys.Abstract_Factory.Products.Pizzas.Pizza;
 
 public abstract class Margarita extends Pizza {
 
-  public Margarita() {
+  protected Margarita() {
     name = "Chicago Margarita";
   }
 }
