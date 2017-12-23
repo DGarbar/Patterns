@@ -8,6 +8,7 @@
  
  Соблюдение [**Dependency-Inversion**][DIP]
 ![UML](/src/AdditionalDocs/uml/Command/ex1.png)
+
 ![UML](/src/AdditionalDocs/uml/Command/ex1_sol.png)
 
 ## Применимость
