@@ -1,6 +1,7 @@
 # Patterns of c programming java
 
 ## Принципы проектирования: 
+(НЕ ЗАКОНЫ)
 
 * **Изменяемые аспекты** приложения должны быть **отделенны** от постоянных;
 
@@ -13,10 +14,13 @@
   
 * Классы открыты для расширения, но закрыты для изменения([Open/closed][OCP]).
 
+* [Принцип минимальной информированности][Demetra];
 
 
 [LowCoupling]: </src/AdditionalDocs/LowCoupling.md>
 [Composition]: </src/AdditionalDocs/Composition.md>
+[Demetra]</src/AdditionalDocs/Principle_of_Least_Knowledge.md>
+[God-Object]</src/AdditionalDocs/AntiPatterns/God-Object.md>
 [OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
 [DIP]: </src/AdditionalDocs/SOLID/Dependency_Inversion_principle.md>
 
