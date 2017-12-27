@@ -19,8 +19,8 @@
 
 [LowCoupling]: </src/AdditionalDocs/LowCoupling.md>
 [Composition]: </src/AdditionalDocs/Composition.md>
-[Demetra]</src/AdditionalDocs/Principle_of_Least_Knowledge.md>
-[God-Object]</src/AdditionalDocs/AntiPatterns/God-Object.md>
+[Demetra]: </src/AdditionalDocs/Principle_of_Least_Knowledge.md>
+[God-Object]: </src/AdditionalDocs/AntiPatterns/God-Object.md>
 [OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
 [DIP]: </src/AdditionalDocs/SOLID/Dependency_Inversion_principle.md>
 
