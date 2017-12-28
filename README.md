@@ -14,13 +14,16 @@
   
 * Классы открыты для расширения, но закрыты для изменения([Open/closed][OCP]).
 
-* [Принцип минимальной информированности][Demetra];
+* [**Принцип минимальной информированности**][Demetra];
+
+* [**Инверсия управления (Голливудский принцип)**][IoC] ( ~ [**Инверсия зависимостей**][DIP]);
 
 
 [LowCoupling]: </src/AdditionalDocs/LowCoupling.md>
 [Composition]: </src/AdditionalDocs/Composition.md>
-[Demetra]</src/AdditionalDocs/Principle_of_Least_Knowledge.md>
-[God-Object]</src/AdditionalDocs/AntiPatterns/God-Object.md>
+[Demetra]: </src/AdditionalDocs/Principle_of_Least_Knowledge.md>
+[IoC]: </src/AdditionalDocs/Inversion_of_Control.md>
+[God-Object]: </src/AdditionalDocs/AntiPatterns/God-Object.md>
 [OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
 [DIP]: </src/AdditionalDocs/SOLID/Dependency_Inversion_principle.md>
 
