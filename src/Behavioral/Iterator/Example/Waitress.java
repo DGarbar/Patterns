@@ -1,34 +1,35 @@
 package Behavioral.Iterator.Example;
 
-import Behavioral.Iterator.Example.Menus.DinnerMenu;
+import Behavioral.Iterator.Example.Menus.Menu;
 import Behavioral.Iterator.Example.Menus.MenuItem.MenuItem;
-import Behavioral.Iterator.Example.Menus.PancakeMenu;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Waitress {
 
-  private PancakeMenu pancakeMenu;
-  private DinnerMenu dinnerMenu;
+  private List<Menu> menus;
 
-  public Waitress(PancakeMenu pancakeMenu, DinnerMenu dinnerMenu) {
-    this.pancakeMenu = pancakeMenu;
-    this.dinnerMenu = dinnerMenu;
+  public Waitress() {
+    menus = new ArrayList<>();
   }
 
   public void printMenu() {
-    Iterator<MenuItem> pancakeMenuIterator = pancakeMenu.iterator();
-    Iterator<MenuItem> dinerMenuIterator = dinnerMenu.iterator();
-    System.out.println("Pancake Menu is : ");
-    printMenu(pancakeMenuIterator);
-    System.out.println("Diner Menu is : ");
-    printMenu(dinerMenuIterator);
+    for (Menu menu : menus) {
+      printMenu(menu.iterator());
+    }
   }
 
+
+  public void addMenu(Menu menu) {
+    menus.add(menu);
+  }
 
   private void printMenu(Iterator<MenuItem> iterator) {
     while (iterator.hasNext()) {
       MenuItem menuItem = iterator.next();
       System.out.println(menuItem.getName() + "  Which price is only = " + menuItem.getPrice());
     }
+    System.out.println("//////");
   }
 }

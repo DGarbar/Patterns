@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class PancakeMenu implements Iterable<MenuItem> {
+// interface Menu extends Iterable
+public class PancakeMenu implements Menu {
 
   private List<MenuItem> pancakeMenu;
 

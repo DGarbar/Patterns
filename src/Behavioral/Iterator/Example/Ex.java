@@ -9,7 +9,9 @@ public class Ex {
     PancakeMenu pancakeMenu = new PancakeMenu();
     DinnerMenu dinnerMenu = new DinnerMenu();
 
-    Waitress waitress = new Waitress(pancakeMenu, dinnerMenu);
+    Waitress waitress = new Waitress();
+    waitress.addMenu(pancakeMenu);
+    waitress.addMenu(dinnerMenu);
 
     waitress.printMenu();
   }
