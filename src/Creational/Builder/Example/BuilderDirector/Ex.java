@@ -5,7 +5,7 @@ import Creational.Builder.Example.BuilderDirector.Builders.CheepBuilder;
 import Creational.Builder.Example.BuilderDirector.Builders.RichBuilder;
 import Creational.Builder.Example.BuilderDirector.Directors.Director;
 
-//We can create interface of directors but y menya lapki
+//We can create individual interface for each directors but y menya lapki
 public class Ex {
 
   public static void main(String[] args) {
