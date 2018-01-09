@@ -3,7 +3,8 @@ package Structural.Flyweight.Example.Elements;
 //Unchangeable parameters
 public class BulletType {
 
-  private final String sprite; //Some hardWeight element
+  //FINAL
+  private final String sprite; //Some heavy elements
   //...
 
   public BulletType(String sprite) {

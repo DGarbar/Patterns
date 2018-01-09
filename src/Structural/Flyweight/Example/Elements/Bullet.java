@@ -10,4 +10,20 @@ public class Bullet {
     this.speed = speed;
     this.bulletType = bulletType;
   }
+
+  public int getSpeed() {
+    return speed;
+  }
+
+  public BulletType getBulletType() {
+    return bulletType;
+  }
+
+  public void setSpeed(int speed) {
+    this.speed = speed;
+  }
+
+  public void setBulletType(BulletType bulletType) {
+    this.bulletType = bulletType;
+  }
 }

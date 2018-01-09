@@ -6,15 +6,15 @@ import Structural.Flyweight.Example.Elements.BulletType;
 import java.util.ArrayList;
 import java.util.List;
 
-public class m16 {
+public class Gun {
 
   private List<Bullet> bullets = new ArrayList<>();
 
   public void fire() {
-    BulletType bulletType = BulletFactory.getBulletType("m16", "m16Sprite.png");
+    BulletType bulletType = BulletFactory.getBulletType("Gun", "GunSprite.png");
     Bullet bullet = new Bullet(200, bulletType);
     bullets.add(bullet);
-    System.out.println("Bullet was eddit to game");
+    System.out.println("Bullet was add to game");
   }
 
 }
