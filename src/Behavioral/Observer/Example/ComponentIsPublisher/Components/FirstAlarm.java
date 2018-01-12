@@ -5,6 +5,5 @@ public class FirstAlarm extends Component {
   @Override
   public void update() {
     System.out.println("First Alarm is Working");
-    notify();
   }
 }

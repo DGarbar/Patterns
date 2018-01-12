@@ -24,6 +24,7 @@ public class Ex {
 
     alarm2.addNotify(alarm3);
     alarm2.addNotify(alarm4);
+    alarm2.addNotify(alarm1);
 
     alarm2.notifyComponent();
     System.out.println("///////////////////////////");
