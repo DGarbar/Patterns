@@ -4,6 +4,8 @@ package Behavioral.Memento.Example.StaticNestedMemento;
 // Encapsulation is still worked,
 // bc new Memento is created by Creator(can use private fields)
 // Also can create common interface for Memento
+
+//Memento can have link to Creator and restore him, by itself
 public class Ex {
 
   public static void main(String[] args) {
