@@ -75,7 +75,7 @@
  - **Фабричный метод** можно рассматривать как частный случай [**Шаблонного метода**][Template_Method]. Кроме того, **Фабричный метод** нередко бывает частью большого класса с [**Шаблонными метода**][Template_Method].
 
 [OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
-[Prototype]: </src/Creational/Prototype/Prototype.md>
+[Prototype]: </src/Creational/Prototype/Prоtotype.md>
 [Abstract_Factory]: </src/Creational/Factorys/Abstract_Factory/Abstract_Factory.md>
 [Builder]: </src/Creational/Builder/Builder.md>
 [Iterator]: </src/Behavioral/Iterator/Iterator.md>
