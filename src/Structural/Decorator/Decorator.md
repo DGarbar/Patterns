@@ -80,4 +80,4 @@
 [Composite]: </src/Structural/Composite/Composite.md>
 [Chain_of_Responsibility]: </src/Behavioral/Chain_of_Responsibility/Chain_of_Responsibility.md>
 [Strategy]: </src/Behavioral/Strategy/Strategy.md>
-[Prototype]: </src/Creational/Prototype/Prototype.md>
+[Prototype]: </src/Creational/Prototype/Prоtotype.md>
