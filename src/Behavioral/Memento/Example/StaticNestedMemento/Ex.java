@@ -32,6 +32,9 @@ public class Ex {
     ork.load(caretaker.getLastSave());
     System.out.println(ork.toString());
 
+    //
+    undead.load(caretaker.getLastSave());
+
 
   }
 }

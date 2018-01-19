@@ -13,4 +13,8 @@ public class Caretaker {
   public void addSave(Creator.Memento memento) {
     mementos.push(memento);
   }
+
+  public void removeLastSave() {
+    mementos.pop();
+  }
 }
