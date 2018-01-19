@@ -61,7 +61,7 @@
 [Abstract_Factory]: </src/Creational/Factorys/Abstract_Factory/Abstract_Factory.md>
 [Factory_Method]: </src/Creational/Factorys/Factory_Method/Factory_Method.md>
 [Builder]: </src/Creational/Builder/Builder.md>
-[Prototype]: </src/Creational/Prototype/Prototype.md>
+[Prototype]: </src/Creational/Prototype/Prоtotype.md>
 [Singleton]: </src/Creational/Singleton/Singleton.md>
 
 [Adapter]: </src/Structural/Adapter/Adapter.md>
