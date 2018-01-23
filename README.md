@@ -46,6 +46,8 @@
 [Facade]: </src/Structural/Facade/Facade.md>
 [Flyweight]: </src/Structural/Flyweight/Flyweight.md>
 [Proxy]: </src/Structural/Proxy/Proxy.md>
+[Private_Class_Data]: </src/Structural/Private_Class_Data/Private_Class_Data.md>
+
 
 [Chain_of_Responsibility]: </src/Behavioral/Chain_of_Responsibility/Chain_of_Responsibility.md>
 [Command]: </src/Behavioral/Command/Command.md>
@@ -57,3 +59,4 @@
 [Strategy]: </src/Behavioral/Strategy/Strategy.md>
 [Template_Method]: </src/Behavioral/Template_Method/Template_Method.md>
 [Visitor]: </src/Behavioral/Visitor/Visitor.md>
+[Null_Object]: </src/Behavioral/Null_Object/Null_Object.md>
