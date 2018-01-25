@@ -12,14 +12,31 @@
 * Стремиться к [**слабой связанности**][LowCoupling]* взаимодействующих объектов;
   - Выделять уровень абстракции, чтобы работать с **супер типом** (Полиморфизм);
   
-* Классы открыты для расширения, но закрыты для изменения([Open/closed][OCP]).
+* Используйте только одну точку. `(Class.method())`[**Принцип минимальной информированности**][Demetra];
+  
+## Solid
+ 
+* У класса должна быть только 1 обязанность. Только 1 причина для изменения. [**Single Responsibility S_olid**][SRP];
 
-* [**Принцип минимальной информированности**][Demetra];
+* Классы открыты для расширения, но закрыты для изменения. [**Open/closed s_O_lid**][OCP];
 
-* [**Инверсия управления (Голливудский принцип)**][IoC] ( ~ [**Инверсия зависимостей**][DIP]);
+* Наследующий класс должен дополнять, а не замещать поведение базового класса. [**Liskov Substitution so_L_id**][LSP];
 
-* [**У класса должна быть только 1 обязанность**][SRP]. Только 1 причина для изменения
+* Клиенты не должны зависеть от методов, которые они не используют. [**Interface Segregation sol_I_d**][ISP];
 
+* [**Инверсия управления (Голливудский принцип)**][IoC] ->>> [**Dependency-Inversion soli_D**][DIP];
+
+## Ключевые принципы
+
+* Don’t repeat yourself - [DRY][DRY];
+
+* Keep it simple stupid - [KISS][KISS];
+
+* You ain’t gonna need it - [YAGNI][YAGNI];
+
+[DRY]: </src/AdditionalDocs/DRY.md>
+[KISS]: </src/AdditionalDocs/KISS.md>
+[YAGNI]: </src/AdditionalDocs/YAGNI.md>
 
 [BindingTypes]: </src/AdditionalDocs/BindingTypes/>  
 [LowCoupling]: </src/AdditionalDocs/LowCoupling.md>
@@ -29,6 +46,8 @@
 [God-Object]: </src/AdditionalDocs/AntiPatterns/God-Object.md>
 [SRP]: </src/AdditionalDocs/SOLID/Single_Responsibility_principle.md>
 [OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
+[LSP]: </src/AdditionalDocs/SOLID/Liskov_Substitution_principle.md>
+[ISP]: </src/AdditionalDocs/SOLID/Interface_Segregation_principle.md>
 [DIP]: </src/AdditionalDocs/SOLID/Dependency_Inversion_principle.md>
 
 
