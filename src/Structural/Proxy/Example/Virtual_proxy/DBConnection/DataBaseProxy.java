@@ -1,4 +1,4 @@
-package Structural.Proxy.Example.Virual_proxy.DBConnection;
+package Structural.Proxy.Example.Virtual_proxy.DBConnection;
 
 public class DataBaseProxy implements DataBase {
 
