@@ -19,7 +19,6 @@ public class Ex {
     vlad = getOwnerProxy(vlad);
 
     //!!! Be careful, do not wrap up Proxy in Proxy
-
     /*
     vlad = getOwnerProxy(vlad);
     IUser dima = getGuestProxy(vlad);
@@ -49,6 +48,8 @@ public class Ex {
 
 
   }
+
+  //Create dynamic proxy
 
   private IUser getOwnerProxy(IUser user) {
 

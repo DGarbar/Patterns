@@ -17,20 +17,6 @@ public class Ex1 {
     computer.computerOn();
 
     //some work
-
     computer.computerOff();
-
-/*
- * But we can use our class in another way
- * But when we need to add some more details or logic
- * we need to add code in here (Very bad)
- * instead of add code in only one place
-
-    mather.powerOn();
-    proz.powerOn();
-    video_card.powerOn();
-    video_card.showPicture();
-*/
   }
-
 }

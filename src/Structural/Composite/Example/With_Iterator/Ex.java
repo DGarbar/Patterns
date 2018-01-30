@@ -25,14 +25,13 @@ public class Ex {
 
     MenuComponent dinnerMenu = new Menu("Dinner for Gentlemen");
 
-    //Add to mainMenu (I fucked up LOL)
+    //Adding item to mainMenu
     MenuComponent mainMenu = new Menu("Main menu : ");
     mainMenu.add(desertMenu1);
     mainMenu.add(dinnerMenu);
     Waitress waitress = new Waitress(mainMenu);
 
-    //Add item for another elements
-
+    //Adding item to another elements
     desertMenu1.add(new Dish("Waffles", 0.99));
     desertMenu1.add(new Dish("Desert", 2.90));
     desertMenu1.add(desertMenu2);

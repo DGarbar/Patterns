@@ -2,6 +2,8 @@ package Structural.Bridge.Example.RemoteControllers;
 
 import Structural.Bridge.Example.Devices.Device;
 
+//Abstraction delegate his behavior
+
 public abstract class RemoteController {
 
   protected Device device;

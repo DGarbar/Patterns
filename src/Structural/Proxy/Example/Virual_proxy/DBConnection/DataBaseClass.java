@@ -5,7 +5,7 @@ public class DataBaseClass implements DataBase {
   private boolean connection = false;
   private String type = "MySQL";
 
-  //We use connect() when we create new class
+  //We use connect() when we create new class.
   public DataBaseClass() {
     connect();
   }
@@ -13,8 +13,8 @@ public class DataBaseClass implements DataBase {
   @Override
   public void connect() {
 
-    //Some hard work, which need a lot of time
-    //Sometimes, can be never used
+    //Some hard work, which need a lot of time.
+    //Sometimes, can be never used.
     try {
       //Mock process
       Thread.sleep(2000);

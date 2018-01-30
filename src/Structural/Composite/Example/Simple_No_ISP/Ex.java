@@ -13,11 +13,12 @@ import Structural.Composite.Example.Simple_No_ISP.Restoran.MenuComponent;
 import Structural.Composite.Example.Simple_No_ISP.Restoran.MenuItem.Dish;
 import Structural.Composite.Example.Simple_No_ISP.Restoran.Waitress;
 
-//Some menus may have a different menu in the himself
-// Security is low bc he can use add(MenuComponent) in Dish, which not good
+// Some menus may have a different menu in the himself.
+// Security is low bc he can use add(MenuComponent) in Dish, which not good.
 public class Ex {
 
   public static void main(String[] args) {
+
     //Create Menus
     MenuComponent desertMenu1 = new Menu("Desert in haven menu");
     MenuComponent desertMenu2 = new Menu("Special propose menu");
@@ -25,14 +26,13 @@ public class Ex {
 
     MenuComponent dinnerMenu = new Menu("Dinner for Gentlemen");
 
-    //Add to mainMenu (I fucked up LOL)
+    //Adding item for mainMenu
     MenuComponent mainMenu = new Menu("Main menu : ");
     mainMenu.add(desertMenu1);
     mainMenu.add(dinnerMenu);
     Waitress waitress = new Waitress(mainMenu);
 
-    //Add item for another elements
-
+    //Adding item for another elements
     desertMenu1.add(new Dish("Waffles", 0.99));
     desertMenu1.add(new Dish("Desert", 2.90));
     desertMenu1.add(desertMenu2);

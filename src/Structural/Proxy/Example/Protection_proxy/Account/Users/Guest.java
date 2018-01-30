@@ -4,6 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+//Proxy
 public class Guest implements InvocationHandler {
 
   private IUser user;

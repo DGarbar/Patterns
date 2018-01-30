@@ -11,6 +11,6 @@ public class Ex {
     System.out.println(imageLoader.getImage("Cat").toString());
     System.out.println(imageLoader.getImage("Dog").toString());
     System.out.println(imageLoader.getImage("Cat").toString());
+    System.out.println(imageLoader.getImage("Cat").toString());
   }
-
 }

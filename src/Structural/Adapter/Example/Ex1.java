@@ -6,15 +6,13 @@ import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.Vector;
 
-/*У нас есть Enumeration но мы хотим использовать Iterator
- *У Iterator не те методы в интерфейсе.
- * Решение: Создаем свой адаптер
+/*
+ * We want replace our old Enumeration on more new Iterator
  */
 public class Ex1 {
 
   public static void main(String[] args) {
-    Vector vector = new Vector<>();
-    vector.addAll(Arrays.asList("A", "B", "C", "D"));
+    Vector<String> vector = new Vector<>(Arrays.asList("A", "B", "C", "D"));
 
     Enumeration enumeration = vector.elements();
     /*
@@ -29,8 +27,6 @@ public class Ex1 {
     }
 
     //Get Exception
-
     iterator.remove();
   }
-
 }

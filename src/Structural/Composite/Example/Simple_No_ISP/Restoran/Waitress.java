@@ -8,7 +8,7 @@ public class Waitress {
     this.mainMenu = mainMenu;
   }
 
-  //get all of the menu, bc we call top of the tree
+  //Print all elements, bc we call top of the tree.
   public void getMenu() {
     mainMenu.print();
   }

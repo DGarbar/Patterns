@@ -26,8 +26,8 @@ public class Ex {
     primitiveConsole.power();
     primitiveConsole.changeChanel();
 
-    //we can do now with radio
+    //We can do now with radio
     NewConsole newConsole1 = new NewConsole(radio);
-    newConsole.mute();
+    newConsole1.mute();
   }
 }

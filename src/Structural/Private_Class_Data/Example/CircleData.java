@@ -5,6 +5,7 @@ public class CircleData {
   private double R;
   private String color;
   private String name;
+  //...
 
   public CircleData(double r, String color, String name) {
     R = r;
@@ -23,4 +24,6 @@ public class CircleData {
   public String getName() {
     return name;
   }
+
+  //...
 }

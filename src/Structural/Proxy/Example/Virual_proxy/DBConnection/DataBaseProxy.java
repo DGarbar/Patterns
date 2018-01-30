@@ -31,5 +31,5 @@ public class DataBaseProxy implements DataBase {
     }
   }
 
-  //Also use method
+  //Also use method from DataBaseClass()
 }

@@ -4,6 +4,10 @@ import Structural.Composite.Example.Simple_No_ISP.Restoran.MenuComponent;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Composite.
+ */
+
 //Menu implements only his method
 public class Menu extends MenuComponent {
 

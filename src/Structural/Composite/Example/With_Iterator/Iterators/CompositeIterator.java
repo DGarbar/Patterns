@@ -37,7 +37,7 @@ public class CompositeIterator implements Iterator<MenuComponent> {
       Iterator<MenuComponent> iterator = stack.peek();
       if (!iterator.hasNext()) {
         //If iterator is on last element (does not have next element)
-        //Delete iterator from stack and then use next Iterator.
+        //delete iterator from stack and then use next Iterator.
         stack.pop();
         return hasNext();
       } else {

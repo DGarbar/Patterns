@@ -16,5 +16,4 @@ public class Gun {
     bullets.add(bullet);
     System.out.println("Bullet was add to game");
   }
-
 }
