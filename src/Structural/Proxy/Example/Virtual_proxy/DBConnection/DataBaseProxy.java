@@ -9,7 +9,7 @@ public class DataBaseProxy implements DataBase {
     this.dataBaseClass = dataBaseClass;
   }
 
-  //Or crate in Proxy
+  //Or crate in class Proxy
   public DataBaseProxy() {
     //dataBaseClass = new DataBaseClass();
   }

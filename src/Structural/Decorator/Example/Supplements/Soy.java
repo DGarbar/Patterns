@@ -2,7 +2,9 @@ package Structural.Decorator.Example.Supplements;
 
 import Structural.Decorator.Example.Products.Beverage;
 
-/*Concrete class decorator*/
+/*
+ *Concrete class decorator
+ */
 
 public class Soy extends SupplementsDecorator {
 
