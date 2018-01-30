@@ -8,12 +8,14 @@ public class Registration extends Step {
   private Scanner sc = new Scanner(System.in);
 
   /*
-      Check is user is in DB if hasn't
-      add to DB new User
-      and then go to Authentication Step (next Step)
-  */
+   * Possible step.
+   * Verify that the user is in the DB.
+   * if hasn't, add to DB new User,
+   * and then go to Authentication Step (next Step).
+   */
 
-  //Also can be previous step but y menya lapki (for return to authorization)
+  // Also can we can use Deque (have previous step) for returning to authorization.
+  // but y menya lapki
   @Override
   public boolean check(String name, int pas) {
     System.out.println("Registration...");
@@ -28,7 +30,7 @@ public class Registration extends Step {
         System.out.println("Write down Pas: ");
         pas = sc.nextInt();
 
-        //add new User
+        //adding new User in DB
 
         DB.users.put(name, pas);
         return checkNext(name, pas);
@@ -37,6 +39,5 @@ public class Registration extends Step {
       System.out.println("Write down Name: ");
       name = sc.next();
     }
-
   }
 }

@@ -5,11 +5,10 @@ public abstract class Step {
   private Step nextStep;
 
   //We also can put NextStep in constructor
-  //Also can be previous step but y menya lapki
+  //Also can be previous step (Deque) but y menya lapki
   public void setNextStep(Step step) {
     this.nextStep = step;
   }
-
 
   public abstract boolean check(String name, int pas);
 
