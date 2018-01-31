@@ -69,9 +69,9 @@
 
 - [**Абстрактной фабрика**][Abstract_Factory], [**Строитель**][Builder] и **Прототип** могут быть реализованы при помощи [**Одиночки**][Singleton]. 
 
-[Ex1]: <src/Creational/Prototype/Example/CopyConstructor/>
-[Ex2]: <src/Creational/Prototype/Example/WithJDK/>
-[Ex3]: <src/Creational/Prototype/Example/Serialization/>
+[Ex1]: </src/Creational/Prototype/Example/CopyConstructor/>
+[Ex2]: </src/Creational/Prototype/Example/WithJDK/>
+[Ex3]: </src/Creational/Prototype/Example/Serialization/>
 
 [Abstract_Factory]: </src/Creational/Factorys/Abstract_Factory/Abstract_Factory.md>
 [Factory_Method]: </src/Creational/Factorys/Factory_Method/Factory_Method.md>
