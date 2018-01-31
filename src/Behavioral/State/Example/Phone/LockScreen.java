@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class LockScreen implements ScreenState {
 
-  //double bond for changing the connection
+  //Bad example Need change
+  //Double bond for changing the connection
   private Phone phone;
   private Scanner sc;
 

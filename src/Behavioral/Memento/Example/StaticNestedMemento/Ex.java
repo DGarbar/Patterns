@@ -1,8 +1,8 @@
 package Behavioral.Memento.Example.StaticNestedMemento;
 
-//If we want to, we can create Memento in package class
+// We can also create Memento in package class
 // Encapsulation is still worked,
-// bc new Memento is created by Creator(can use private fields)
+// bc new Memento is created by Creator(Class can use private fields)
 // Also can create common interface for Memento
 
 //Memento can have link to Creator and restore him, by itself
@@ -32,9 +32,6 @@ public class Ex {
     ork.load(caretaker.getLastSave());
     System.out.println(ork.toString());
 
-    //
     undead.load(caretaker.getLastSave());
-
-
   }
 }

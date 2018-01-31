@@ -24,6 +24,7 @@ public class Ex {
       .setKitchenLight(new KitchenLight())
       .createSmartHouse();
 
+    //Each sensor don't know about HouseStaff, but know about mediator
     WakeUpSensor wakeUpSensor = new WakeUpSensor(smartHouse);
     KitchenSensor kitchenSensor = new KitchenSensor(smartHouse);
     LeaveSensor leaveSensor = new LeaveSensor(smartHouse);
@@ -34,7 +35,5 @@ public class Ex {
     System.out.println("mMMm I hate coffee");
     System.out.println("Ohh i am late ****");
     leaveSensor.sens();
-
   }
-
 }

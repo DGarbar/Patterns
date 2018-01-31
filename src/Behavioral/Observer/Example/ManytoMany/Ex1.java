@@ -5,6 +5,7 @@ import Behavioral.Observer.Example.ManytoMany.Observers.TVChannel;
 import Behavioral.Observer.Example.ManytoMany.Subject.RUNewsPublisher;
 import Behavioral.Observer.Example.ManytoMany.Subject.UANewsPublisher;
 
+// Better use Mediator
 public class Ex1 {
 
   public static void main(String[] args) {

@@ -17,6 +17,8 @@ public class Ex2 {
 
     dataBase.setId(123);
 
+    dataBase.eventManager.removeObserver(user1);
+
     dataBase.setName("PornHub");
   }
 

@@ -9,9 +9,9 @@ public class UANewsPublisher extends ObservablePublisher {
 
   protected void analyzingNews() {
 
-    //do some work with News
+    // Do some work with News
 
-    // notify our channels
+    // Notify our channels
     notifyObserver();
   }
 }

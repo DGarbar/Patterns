@@ -22,20 +22,18 @@ public class Community extends Observable {
     }
   }
 
-  //add members to community
-
   public void agitation() throws InterruptedException {
-    //index when we notify our investors
+    //Index when we notify our investors
     int i = 10;
     while (true) {
 
-      //add some members 1 to 10
+      //Add members 1 to 10
 
       addMembers(new Random().nextInt(10));
       Thread.sleep(500);
       System.out.println(members);
-      //when members more than 100 we notify our investors
 
+      //When members more than 10 we notify our investors
       if (members / i > 0) {
         setChanged();
         i *= 10;

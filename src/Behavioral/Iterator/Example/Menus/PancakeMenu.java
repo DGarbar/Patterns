@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-// interface Menu extends Iterable
+//Interface Menu extends Iterable
 public class PancakeMenu implements Menu {
 
   private List<MenuItem> pancakeMenu;
@@ -27,8 +27,7 @@ public class PancakeMenu implements Menu {
   public Iterator<MenuItem> iterator() {
     return pancakeMenu.iterator();
 
-    //or we can use more functional
-
-    // return pancakeMenu.listIterator();
+    //or we can use more functional listIterator();
+    //return pancakeMenu.listIterator();
   }
 }

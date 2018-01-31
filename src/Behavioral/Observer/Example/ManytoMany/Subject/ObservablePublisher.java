@@ -4,8 +4,6 @@ import Behavioral.Observer.Example.ManytoMany.Observers.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-// We can create abstract class if we have more than 1 Publisher
-
 public abstract class ObservablePublisher implements Observable {
 
   protected List<Observer> channels = new ArrayList<>();

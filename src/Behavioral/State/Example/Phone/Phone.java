@@ -4,7 +4,8 @@ public class Phone {
 
   //Context have different states
 
-  //double bond for changing the connection
+  //Bad example Need change
+  //Double bond for changing the connection
   private ScreenState screenOffState;
   private ScreenState screenOnState;
 

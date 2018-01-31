@@ -56,7 +56,7 @@ public class Creator {
       '}';
   }
 
-  //Nestes static class
+  //Nested static class
   public static class Memento {
 
     private final int lvl;
@@ -68,6 +68,7 @@ public class Creator {
       this.type = type;
       this.state = state;
     }
+
     //Accessible only by outer class
 
     private int getLvl() {

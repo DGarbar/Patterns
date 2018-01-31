@@ -4,7 +4,7 @@ import Behavioral.Iterator.Example.Iterators.DinnerMenuIterator;
 import Behavioral.Iterator.Example.Menus.MenuItem.MenuItem;
 import java.util.Iterator;
 
-//interface Menu extends Iterable
+//Interface Menu extends Iterable
 public class DinnerMenu implements Menu {
 
   private final int MENU_SIZE = 10;
@@ -15,7 +15,7 @@ public class DinnerMenu implements Menu {
   public DinnerMenu() {
     dinnerMenu = new MenuItem[MENU_SIZE];
 
-    //some items
+    //Some items
 
     addItem(new MenuItem("HotDog", 3.99));
     addItem(new MenuItem("BLT", 10.99));

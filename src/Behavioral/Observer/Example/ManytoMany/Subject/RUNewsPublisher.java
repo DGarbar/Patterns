@@ -4,15 +4,14 @@ public class RUNewsPublisher extends ObservablePublisher {
 
   @Override
   public void notifyObserver() {
-
     channels.forEach(ch -> ch.update(this, news));
   }
 
   protected void analyzingNews() {
 
-    //do some work with News
+    // Do some work with News
 
-    // notify our channels
+    // Notify our channels
     notifyObserver();
   }
 }

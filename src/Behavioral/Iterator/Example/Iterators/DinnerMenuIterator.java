@@ -4,12 +4,11 @@ import Behavioral.Iterator.Example.Menus.MenuItem.MenuItem;
 import java.util.Iterator;
 
 /*
- *  We can just convert to List
+ *  We also can convert to List<T>
  *  List<MenuItem> list = Arrays.asList(dinnerMenu)
- *  and get Iterator
+ *  and get Iterator<E>
  *  list.iterator()
  */
-
 
 public class DinnerMenuIterator implements Iterator<MenuItem> {
 

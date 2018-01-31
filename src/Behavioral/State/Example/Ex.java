@@ -2,6 +2,7 @@ package Behavioral.State.Example;
 
 import Behavioral.State.Example.Phone.Phone;
 
+//Bad example Need change
 public class Ex {
 
   public static void main(String[] args) throws InterruptedException {

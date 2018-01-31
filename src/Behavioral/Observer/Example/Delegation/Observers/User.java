@@ -10,6 +10,6 @@ public class User implements Observer {
 
   @Override
   public void update(String data) {
-    System.out.println("User: " + id + "get " + data);
+    System.out.println("User: " + id + " get " + data);
   }
 }

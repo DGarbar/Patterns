@@ -20,7 +20,7 @@ public class DataBase {
     return name;
   }
 
-  //notify user when DB is changed
+  //Notify user when DB is changed
 
   public void setId(int id) {
     this.id = id;
