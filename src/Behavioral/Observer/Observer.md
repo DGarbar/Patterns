@@ -83,9 +83,9 @@
     Теперь представьте другую программу, в которой каждый компонент системы становится издателем. Компоненты могут подписываться друг на друга,
     в то же время, не привязываясь к конкретным классам. Программа будет состоять из целой сети наблюдателей, не имея центрального объекта посредника.
 
-[Ex1]: </src/Behavioral/Observer/ManytoMany/>
-[Ex2]: </src/Behavioral/Observer/Delegation/>
-[Ex3]: </src/Behavioral/Observer/withJDK/>
+[Ex1]: </src/Behavioral/Observer/Example/ManytoMany/>
+[Ex2]: </src/Behavioral/Observer/Example/Delegation/>
+[Ex3]: </src/Behavioral/Observer/Example/withJDK/>
 
 [OCP]: </src/AdditionalDocs/SOLID/Open-Closed_principle.md>
 
