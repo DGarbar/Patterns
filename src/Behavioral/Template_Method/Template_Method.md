@@ -44,7 +44,7 @@
 - **Шаблонный метод** использует наследование, чтобы расширять **части алгоритма**. [**Стратегия**][Strategy] использует делегирование, чтобы изменять алгоритм. **Шаблонный метод** работает на уровне классов. [**Стратегия**][Strategy] позволяет менять логику отдельных объектов.
 
 
-[LSP]: </src/AdditionalDocs/SOLID/Liskov_Substitution_Principle.md>
+[LSP]: </src/AdditionalDocs/SOLID/Liskov_Substitution_principle.md>
 
 [Abstract_Factory]: </src/Creational/Factorys/Abstract_Factory/Abstract_Factory.md>
 [Factory_Method]: </src/Creational/Factorys/Factory_Method/Factory_Method.md>
