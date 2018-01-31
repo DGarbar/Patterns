@@ -11,6 +11,7 @@ public class Tea extends Beverage {
     System.out.println("Steeping the tra");
   }
 
+  //Hook
   @Override
   protected boolean isWantHug() {
     System.out.println("You want hugs");

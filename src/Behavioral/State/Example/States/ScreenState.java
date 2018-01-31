@@ -1,4 +1,4 @@
-package Behavioral.State.Example.Phone;
+package Behavioral.State.Example.States;
 
 public interface ScreenState {
 

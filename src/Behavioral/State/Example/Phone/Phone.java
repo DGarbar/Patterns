@@ -1,10 +1,13 @@
 package Behavioral.State.Example.Phone;
 
+import Behavioral.State.Example.States.LockScreen;
+import Behavioral.State.Example.States.ScreenState;
+import Behavioral.State.Example.States.UnlockedScreen;
+
 public class Phone {
 
   //Context have different states
 
-  //Bad example Need change
   //Double bond for changing the connection
   private ScreenState screenOffState;
   private ScreenState screenOnState;
@@ -34,19 +37,19 @@ public class Phone {
     System.out.println("Screen is a bit scratch, Y vas lapki");
   }
 
-  ScreenState getScreenOffState() {
+  public ScreenState getScreenOffState() {
     return screenOffState;
   }
 
-  ScreenState getScreenOnState() {
+  public ScreenState getScreenOnState() {
     return screenOnState;
   }
 
-  void setCurrentState(ScreenState currentState) {
+  public void setCurrentState(ScreenState currentState) {
     this.currentState = currentState;
   }
 
-  int getPIN() {
+  public int getPIN() {
     return PIN;
   }
 }

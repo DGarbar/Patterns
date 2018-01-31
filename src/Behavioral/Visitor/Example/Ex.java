@@ -7,7 +7,7 @@ import Behavioral.Visitor.Example.Visitors.PaintDraw;
 import Behavioral.Visitor.Example.Visitors.Visitor;
 import Behavioral.Visitor.Example.Visitors.XMLExportVisitor;
 
-//Adding new Type of Shape (Dot, Sphere ...) is bad
+// Adding new Type of Shape (Dot, Sphere ...) is bad
 // bc we need to add new code to ALL visitors
 
 public class Ex {

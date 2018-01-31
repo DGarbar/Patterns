@@ -1,8 +1,9 @@
-package Behavioral.State.Example.Phone;
+package Behavioral.State.Example.States;
+
+import Behavioral.State.Example.Phone.Phone;
 
 public class UnlockedScreen implements ScreenState {
 
-  //Bad example Need change
   //Double bond for changing the connection
   private Phone phone;
 

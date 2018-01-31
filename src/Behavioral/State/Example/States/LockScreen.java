@@ -1,11 +1,11 @@
-package Behavioral.State.Example.Phone;
+package Behavioral.State.Example.States;
 
+import Behavioral.State.Example.Phone.Phone;
 import java.util.Date;
 import java.util.Scanner;
 
 public class LockScreen implements ScreenState {
 
-  //Bad example Need change
   //Double bond for changing the connection
   private Phone phone;
   private Scanner sc;

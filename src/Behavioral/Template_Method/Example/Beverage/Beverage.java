@@ -13,6 +13,7 @@ public abstract class Beverage {
     }
   }
 
+  //Changeable method
   abstract protected void brew();
 
   //our hook
