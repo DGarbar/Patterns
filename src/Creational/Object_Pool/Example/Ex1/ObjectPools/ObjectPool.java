@@ -10,7 +10,7 @@ public abstract class ObjectPool<T> {
 
   protected abstract T create();
 
-  /**
+  /*
    * Checkout object from pool
    */
   public synchronized T getObj() {

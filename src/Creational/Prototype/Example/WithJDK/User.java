@@ -2,7 +2,7 @@ package Creational.Prototype.Example.WithJDK;
 
 import java.util.Calendar;
 
-//BAD
+//Have problem in use
 public class User implements Cloneable {
 
   private String name;

@@ -51,10 +51,9 @@ public abstract class ObjectPool<T> implements Pool<T>, ObjFactory<T> {
     }
   }
 
-  //will close down the pool.
-//For simplicity of this example I only remove the objects from the pool.
-//In real life you might need to release the memory too. e.g.
-// if is a database connection pool, you need to close the connection before remove the object from the pool.
+  //For simplicity of this example I only remove the objects from the pool.
+  //In real life you might need to release the memory too. e.g.
+  //if is a database connection pool, you need to close the connection before remove the object from the pool.
   @Override
   public void shutdown() {
     objects.clear();

@@ -17,7 +17,7 @@ public class User {
     this(nUser.getName(), nUser.getAge());
   }
 
-  //Another variant
+  // Another variant
   public static User getInstance(User nUser) {
     return new User(nUser.getName(), nUser.getAge());
   }

@@ -1,16 +1,18 @@
 package Creational.Singleton.Example.ThreadSync;
 
+//Thread save
 public class Server {
 
   //JDK 5
-  private static volatile Server ourInstance = new Server();
+  //Lazy loading
 
-  //Thread save
+  private static volatile Server ourInstance;
 
   /*
-  or we can do only
+  Or we can do only
   public static synchronized getInstance()
-  but this not good (we need synchronized only 1 time)
+  but this have performance issue
+  (we need synchronized only 1 time, not every getInstance())
   */
   public static Server getInstance() {
     if (ourInstance == null) {

@@ -1,15 +1,11 @@
 package Creational.Singleton.Example.Simple;
 
+//Not Thread save
 public class Server {
 
   //Lazy loading
 
   private static Server server;
-
-  private Server() {
-  }
-
-  //Not Thread save
 
   public static Server getInstance() {
     if (server == null) {
@@ -18,4 +14,6 @@ public class Server {
     return server;
   }
 
+  private Server() {
+  }
 }

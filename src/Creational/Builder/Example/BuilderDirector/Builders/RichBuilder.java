@@ -4,10 +4,10 @@ import Creational.Builder.Example.BuilderDirector.Object.House;
 
 public class RichBuilder implements Builder {
 
-  private int price = 0;
-  private int wall = 0;
-  private int door = 0;
-  private int window = 0;
+  private int price;
+  private int wall;
+  private int door;
+  private int window;
   private String roof;
   private String foundation;
 

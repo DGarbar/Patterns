@@ -61,7 +61,7 @@ public class ElegantHouse {
   //Our inner Builder
   class Builder {
 
-    //if constructor will be public
+    //if constructor was public
     //we can change parameters
     private Builder() {
     }

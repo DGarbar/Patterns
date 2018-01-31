@@ -10,7 +10,7 @@ public class ChicagoPizzaFactory implements PizzaFactory {
   @Override
   public Neapolitan makeNeapolitan() {
 
-    // create new specific Neapolitan
+    // Create new specific Neapolitan
 
     return new ChicagoNeapolitan();
   }
@@ -18,7 +18,7 @@ public class ChicagoPizzaFactory implements PizzaFactory {
   @Override
   public Margarita makeMargarita() {
 
-    // create new specific Margarita
+    // Create new specific Margarita
 
     return new ChicagoMargarita();
   }

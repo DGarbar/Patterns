@@ -11,13 +11,13 @@ public class Ex {
   public static void main(String[] args) throws IOException, ClassNotFoundException {
     User u1 = new User("u1", 23);
 
-    //Создание цепи потоков с потоком вывода объекта в конце
+    //Create a thread chain with an object output stream at the end
     ObjectOutputStream ous = new ObjectOutputStream(new FileOutputStream("test1.dat"));
     ous.writeObject(u1);
     System.out.println(u1);
     ous.close();
 
-    //Объекты считываются в том же порядке, в котором были записаны в файл.
+    //Objects are read in the same order in which they were written to the file
     ObjectInputStream ois = new ObjectInputStream(new FileInputStream("test1.dat"));
     User clone = (User) ois.readObject();
     System.out.println(clone);

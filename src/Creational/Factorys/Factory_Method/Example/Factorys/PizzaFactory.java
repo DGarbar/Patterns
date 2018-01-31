@@ -9,7 +9,7 @@ public abstract class PizzaFactory {
 
     pizza = makePizza();
 
-    //do work with product
+    //Working with product
     pizza.prepare();
     pizza.bake();
     pizza.cut();
@@ -17,7 +17,7 @@ public abstract class PizzaFactory {
     return pizza;
   }
 
-  //create kind of pizza
+  //Create pizza
   protected abstract Pizza makePizza();
 
 }

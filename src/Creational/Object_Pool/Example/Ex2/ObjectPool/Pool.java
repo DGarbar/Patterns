@@ -12,7 +12,7 @@ public interface Pool<T> {
    */
   void release(T object);
 
-  /**
+  /*
    * Shuts down the pool. Should release all resources.
    */
   void shutdown();
