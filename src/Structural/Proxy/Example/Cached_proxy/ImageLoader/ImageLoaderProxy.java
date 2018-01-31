@@ -14,7 +14,7 @@ public class ImageLoaderProxy implements ImageLoader {
     this.imageLoaderClass = imageLoaderClass;
   }
 
-  //Or crate in Proxy
+  //Or crate in class Proxy
   public ImageLoaderProxy() {
     imageLoaderClass = new ImageLoaderClass();
   }

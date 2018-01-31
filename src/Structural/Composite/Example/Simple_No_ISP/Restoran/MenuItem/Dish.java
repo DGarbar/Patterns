@@ -2,6 +2,7 @@ package Structural.Composite.Example.Simple_No_ISP.Restoran.MenuItem;
 
 import Structural.Composite.Example.Simple_No_ISP.Restoran.MenuComponent;
 
+//MenyItem (Dish) implements only his method
 public class Dish extends MenuComponent {
 
   private String name;

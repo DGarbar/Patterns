@@ -17,7 +17,7 @@ public class Decorator {
     myDrinks = new Milk(myDrinks);
     myDrinks = new Soy(myDrinks);
 
-    //Or we can do
+    //Or we can do like that
     Beverage drink1 = new Milk(new Milk(new Soy(new Espresso())));
 
     System.out.println(myDrinks.getDescription() + "That will be cost " + myDrinks.cost());

@@ -13,10 +13,12 @@ public class Authorization extends Step {
   }
 
   /*
-  Check is user is in DB
-  If not, propose to create new user (go to Registration step)
-  else go to Authentication Step
-  */
+   * Second step.
+   * Verify that the user is in the DB.
+   * If not, propose to create new user (go to Registration step)
+   * else go to Authentication step
+   */
+
   @Override
   public boolean check(String name, int pas) {
     System.out.println("Authorization...");

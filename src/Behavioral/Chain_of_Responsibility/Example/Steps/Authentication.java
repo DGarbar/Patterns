@@ -4,6 +4,11 @@ import Behavioral.Chain_of_Responsibility.Example.Db.DB;
 
 public class Authentication extends Step {
 
+  /*
+   * Last step.
+   * Verify password with name from DB.
+   */
+
   @Override
   public boolean check(String name, int pas) {
     System.out.println("Authentication....");

@@ -14,16 +14,17 @@ public class Ex {
     Step authorization = new Authorization(registration);
     Step authentication = new Authentication();
 
-    //First we check on correct symbols
+    // First we check on accepted symbols,
     spellCheck.setNextStep(authorization);
-    //then go to check if we have this name
+    // then going to checking if we have this name in DB,
     authorization.setNextStep(authentication);
-    //if we haven't we go to registration
+    // if we haven't we go to registration,
     registration.setNextStep(authentication);
-    // we can add addPrevStep (in case if we don't want to reg) but y menya lapki
+    // we can add addPrevStep (Deque)
 
-    //then we check password + name
+    //After all steps we checking password + name
     authentication.setNextStep(null);
+
     System.out.println("Dimasdasd + 112");
     spellCheck.check("Dimasdasd", 112);//wrong all
     System.out.println("Dima + 1");

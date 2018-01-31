@@ -3,6 +3,7 @@ package Behavioral.Chain_of_Responsibility.Example.Db;
 import java.util.HashMap;
 import java.util.Map;
 
+//Mock DB
 public class DB {
 
   public static Map<String, Integer> users;

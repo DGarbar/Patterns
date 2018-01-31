@@ -1,6 +1,8 @@
 package Structural.Decorator.Example.Products;
 
-/* Common interface for all drinks */
+/*
+ * Common interface for all drinks
+ */
 
 public interface Beverage {
 

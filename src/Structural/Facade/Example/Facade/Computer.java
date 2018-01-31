@@ -7,8 +7,7 @@ import Structural.Facade.Example.Subsystem.Video_Card;
 /*
  * We can create additional Facade = Computer_Peripherals
  * (in case if we want to add Mouse, Keyboard, Monitor
- * If we need more specific to Facade
- * Or add in here.
+ * If the responsibility of the facade begins to blur.
  */
 
 public class Computer {

@@ -4,6 +4,7 @@ import Structural.Composite.Example.With_Iterator.Iterators.NullIterator;
 import Structural.Composite.Example.With_Iterator.Restoran.MenuComponent;
 import java.util.Iterator;
 
+//MenuItem (Dish) implements only his method
 public class Dish extends MenuComponent {
 
   private String name;

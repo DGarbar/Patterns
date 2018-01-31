@@ -4,7 +4,7 @@ package Structural.Composite.Example.Simple_No_ISP.Restoran;
  * This example is violates the Interface Segregation principle,
  * but for transparency of the code.
  * (Client always work with MenuComponent,
- * so he can not ot worry about the instanceOf() )
+ * so he can not ot worry about the instanceOf())
  * But he also need catch the exception.
  */
 

@@ -25,7 +25,7 @@ public class Ex {
 
     MenuComponent dinnerMenu = new Menu("Dinner for Gentlemen");
 
-    //Adding item to mainMenu
+    //Adding item to mainMenu (top of the tree)
     MenuComponent mainMenu = new Menu("Main menu : ");
     mainMenu.add(desertMenu1);
     mainMenu.add(dinnerMenu);

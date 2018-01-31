@@ -2,6 +2,10 @@ package Structural.Decorator.Example.Supplements;
 
 import Structural.Decorator.Example.Products.Beverage;
 
+/*
+ *Concrete class decorator
+ */
+
 public class Milk extends SupplementsDecorator {
 
   public Milk(Beverage beverage) {

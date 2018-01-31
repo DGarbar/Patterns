@@ -12,8 +12,8 @@ public class StereoOff implements Command {
 
   @Override
   public void execute() {
-    stereo.stereoOFF();
     stereo.setVolume(0);
+    stereo.stereoOFF();
   }
 
   @Override
