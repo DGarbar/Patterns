@@ -34,6 +34,23 @@
 
 * You ain’t gonna need it - [YAGNI][YAGNI];
 
+## Паттерны проектирования 
+
+ | [**Порождающие**][Creational]: удобное и безопасное **создание** новых объектов | [**Структурные**][Structural]: **построение** удобных в поддержке иерархий классов | [**Поведенческие**][Behavioral]: эффективного и безопасного **взаимодействия** между объектами программы |
+ | :------: | :------: |:------: |
+ | [**Фабричный метод**][Factory_Method] | [**Адаптер**][Adapter] | [**Цепочка обязанностей**][Chain_of_Responsibility] |
+ | [**Абстрактная фабрика**][Abstract_Factory] | [**Мост**][Bridge] | [**Команда**][Command] |
+ | [**Строитель**][Builder] | [**Компоновщик**][Composite] | [**Итератор**][Iterator] |
+ | [**Пул объектов**][Object_Pool] |[**Декоратор**][Decorator] | [**Посредник**][Mediator] |
+ | [**Прототип**][Prototype] | [**Фасад**][Facade] | [**Снимок**][Memento] |
+ | [**Одиночка**][Singleton] | [**Легковес**][Flyweight] | [**Наблюдатель**][Observer] |
+ |  | [**Заместитель**][Proxy] |[**Состояние**][State] |
+ |  | [**Выделение частного класса данных**][Private_Class_Data] |  [**Стратегия**][Strategy] |
+ |  |  | [**Шаблонный метод**][Template_Method] |
+ |  |  | [**Посетитель**][Visitor] |
+ |  |  | [**Null объект**][Null_Object] |
+ 
+ 
 [DRY]: </src/AdditionalDocs/DRY.md>
 [KISS]: </src/AdditionalDocs/KISS.md>
 [YAGNI]: </src/AdditionalDocs/YAGNI.md>
@@ -51,6 +68,7 @@
 [DIP]: </src/AdditionalDocs/SOLID/Dependency_Inversion_principle.md>
 
 
+[Creational]: </src/Creational/>
 [Abstract_Factory]: </src/Creational/Factorys/Abstract_Factory/Abstract_Factory.md>
 [Factory_Method]: </src/Creational/Factorys/Factory_Method/Factory_Method.md>
 [Object_Pool]: </src/Creational/Object_Pool/Object_Pool.md>
@@ -58,6 +76,7 @@
 [Prototype]: </src/Creational/Prototype/Prоtotype.md>
 [Singleton]: </src/Creational/Singleton/Singleton.md>
 
+[Structural]: </src/Structural/>
 [Adapter]: </src/Structural/Adapter/Adapter.md>
 [Bridge]: </src/Structural/Bridge/Bridge.md>
 [Composite]: </src/Structural/Composite/Composite.md>
@@ -68,6 +87,7 @@
 [Private_Class_Data]: </src/Structural/Private_Class_Data/Private_Class_Data.md>
 
 
+[Behavioral]: </src/Behavioral/>
 [Chain_of_Responsibility]: </src/Behavioral/Chain_of_Responsibility/Chain_of_Responsibility.md>
 [Command]: </src/Behavioral/Command/Command.md>
 [Iterator]: </src/Behavioral/Iterator/Iterator.md>
