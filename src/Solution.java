@@ -19,17 +19,17 @@ public class Solution {
 
   static void dirWalk(Path rootDir, Path mainFile) {
     Filter<Path> filter = entry -> {
-      if (Files.isDirectory(entry)) {
-        dirWalk(entry, mainFile);
+//      if (entry.toString().endsWith(".md") || entry.toString().endsWith(".java")) {
+      if (entry.toString().endsWith(".md")) {
+        writeToFile(mainFile, entry);
         return false;
       } else {
-        return Files.isDirectory(entry) || entry.toString().endsWith(".md") || entry.toString()
-          .endsWith("java");
+        return Files.isDirectory(entry);
       }
     };
 
     try {
-      Files.newDirectoryStream(rootDir, filter).forEach(x -> writeToFile(mainFile, x));
+      Files.newDirectoryStream(rootDir, filter).forEach(x -> dirWalk(x, mainFile));
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -44,6 +44,7 @@ public class Solution {
       } else {
         Files.write(copyTo, Files.readAllLines(copyFrom), StandardOpenOption.APPEND);
       }
+      Files.write(copyTo, "\n".getBytes(), StandardOpenOption.APPEND);
     } catch (IOException e) {
       e.printStackTrace();
     }
