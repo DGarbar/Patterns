@@ -49,6 +49,7 @@
  |  |  | [**Посетитель**][Visitor] |
  |  |  | [**Null объект**][Null_Object] |
  
+ [Catalog of Patterns of Enterprise Application Architecture][Enterprise Architecture]
  
 [DRY]: </src/AdditionalDocs/DRY.md>
 [KISS]: </src/AdditionalDocs/KISS.md>
@@ -98,3 +99,5 @@
 [Template_Method]: </src/Behavioral/Template_Method/Template_Method.md>
 [Visitor]: </src/Behavioral/Visitor/Visitor.md>
 [Null_Object]: </src/Behavioral/Null_Object/Null_Object.md>
+
+[Enterprise Architecture]: <https://martinfowler.com/eaaCatalog/>
